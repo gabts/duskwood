@@ -1,0 +1,46 @@
+{
+  "name": "dusky-theme",
+  "displayName": "Dusky",
+  "version": "1.0.0",
+  "description": "A dusky theme fro Visual Studio Code.",
+  "author": "Gabriel Toll Stålbom <gabtost@gmail.com>",
+  "publisher": "gabbes",
+  "license": "MIT",
+  "keywords": [
+    "Theme",
+    "Dark theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabbes/dusky.git"
+  },
+  "bugs": "https://github.com/gabbes/dusky/issues",
+  "galleryBanner": {
+    "color": "#061526",
+    "theme": "dark"
+  },
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.31.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "Dusky",
+        "label": "Dusky",
+        "path": "./theme/dusky.json",
+        "uiTheme": "vs-dark"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "node index"
+  },
+  "devDependencies": {
+    "js-yaml": "^3.12.1",
+    "prettier": "^1.16.4"
+  }
+}

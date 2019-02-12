@@ -1,0 +1,3 @@
+- scope: comment
+  settings:
+    foreground: *SAMPLE_VARIABLE_2

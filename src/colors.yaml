@@ -1,0 +1,443 @@
+# Contrast colors
+# https://code.visualstudio.com/api/references/theme-color#contrast-colors
+
+contrastActiveBorder: *SAMPLE_VARIABLE_1 # An extra border around active elements to separate them from others for greater contrast.
+contrastBorder: null # An extra border around elements to separate them from others for greater contrast.
+
+# Base colors
+# https://code.visualstudio.com/api/references/theme-color#base-colors
+
+focusBorder: null # Overall border color for focused elements. This color is only used if not overridden by a component.
+foreground: null # Overall foreground color. This color is only used if not overridden by a component.
+widget.shadow: null # Shadow color of widgets such as Find/Replace inside the editor.
+selection.background: null # Background color of text selections in the workbench (for input fields or text areas, does not apply to selections within the editor and the terminal).
+descriptionForeground: null # Foreground color for description text providing additional information, for example for a label.
+errorForeground: null # Overall foreground color for error messages (this color is only used if not overridden by a component).
+
+# Text colors
+# https://code.visualstudio.com/api/references/theme-color#text-colors
+
+textBlockQuote.background: null # Background color for block quotes in text.
+textBlockQuote.border: null # Border color for block quotes in text.
+textCodeBlock.background: null # Background color for code blocks in text.
+textLink.activeForeground: null # Foreground color for links in text when clicked on and on mouse hover.
+textLink.foreground: null # Foreground color for links in text.
+textPreformat.foreground: null # Foreground color for preformatted text segments.
+textSeparator.foreground: null # Color for text separators.
+
+# Button control
+# https://code.visualstudio.com/api/references/theme-color#button-control
+
+button.background: null # Button background color.
+button.foreground: null # Button foreground color.
+button.hoverBackground: null # Button background color when hovering.
+
+# Dropdown control
+# https://code.visualstudio.com/api/references/theme-color#dropdown-control
+
+dropdown.background: null # Dropdown background.
+dropdown.listBackground: null # Dropdown list background.
+dropdown.border: null # Dropdown border.
+dropdown.foreground: null # Dropdown foreground.
+
+# Input control
+# https://code.visualstudio.com/api/references/theme-color#input-control
+
+input.background: null # Input box background.
+input.border: null # Input box border.
+input.foreground: null # Input box foreground.
+input.placeholderForeground: null # Input box foreground color for placeholder text.
+inputOption.activeBorder: null # Border color of activated options in input fields.
+inputValidation.errorBackground: null # Input validation background color for error severity.
+inputValidation.errorForeground: null # Input validation foreground color for error severity.
+inputValidation.errorBorder: null # Input validation border color for error severity.
+inputValidation.infoBackground: null # Input validation background color for information severity.
+inputValidation.infoForeground: null # Input validation foreground color for information severity.
+inputValidation.infoBorder: null # Input validation border color for information severity.
+inputValidation.warningBackground: null # Input validation background color for information warning.
+inputValidation.warningForeground: null # Input validation foreground color for warning severity.
+inputValidation.warningBorder: null # Input validation border color for warning severity.
+
+# Scrollbar control
+# https://code.visualstudio.com/api/references/theme-color#scrollbar-control
+
+scrollbar.shadow: null # Scrollbar slider shadow to indicate that the view is scrolled.
+scrollbarSlider.activeBackground: null # Scrollbar slider background color when clicked on.
+scrollbarSlider.background: null # Scrollbar slider background color.
+scrollbarSlider.hoverBackground: null # Scrollbar slider background color when hovering.
+
+# Badge
+# https://code.visualstudio.com/api/references/theme-color#badge
+
+badge.foreground: null # Badge foreground color.
+badge.background: null # Badge background color.
+
+# Progress bar
+# https://code.visualstudio.com/api/references/theme-color#progress-bar
+
+progressBar.background: null # Background color of the progress bar shown for long running operations.
+
+# Lists and trees
+# https://code.visualstudio.com/api/references/theme-color#lists-and-trees
+
+list.activeSelectionBackground: null # List/Tree background color for the selected item when the list/tree is active.
+list.activeSelectionForeground: null # List/Tree foreground color for the selected item when the list/tree is active.
+list.dropBackground: null # List/Tree drag and drop background when moving items around using the mouse.
+list.focusBackground: null # List/Tree background color for the focused item when the list/tree is active.
+list.focusForeground: null # List/Tree foreground color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.
+list.highlightForeground: null # List/Tree foreground color of the match highlights when searching inside the list/tree.
+list.hoverBackground: null # List/Tree background when hovering over items using the mouse.
+list.hoverForeground: null # List/Tree foreground when hovering over items using the mouse.
+list.inactiveSelectionBackground: null # List/Tree background color for the selected item when the list/tree is inactive.
+list.inactiveSelectionForeground: null # List/Tree foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
+list.inactiveFocusBackground: null # List background color for the focused item when the list is inactive. An active list has keyboard focus, an inactive does not. Currently only supported in lists.
+list.invalidItemForeground: null # List/Tree foreground color for invalid items, for example an unresolved root in explorer.
+list.errorForeground: null # Foreground color of list items containing errors.
+list.warningForeground: null # Foreground color of list items containing warnings.
+listFilterWidget.background: null # List/Tree Filter background color of typed text when searching inside the list/tree.
+listFilterWidget.outline: null # List/Tree Filter Widget's outline color of typed text when searching inside the list/tree.
+listFilterWidget.noMatchesOutline: null # List/Tree Filter Widget's outline color when no match is found of typed text when searching inside the list/tree.
+
+# Activity Bar
+# https://code.visualstudio.com/api/references/theme-color#activity-bar
+
+activityBar.background: null # Activity Bar background color.
+activityBar.dropBackground: null # Drag and drop feedback color for the Activity Bar items.
+activityBar.foreground: null # Activity bar foreground color (for example used for the icons).
+activityBar.inactiveForeground: null # Activity bar item foreground color when it is inactive.
+activityBar.border: null # Activity Bar border color with the Side Bar.
+activityBarBadge.background: null # Activity notification badge background color.
+activityBarBadge.foreground: null # Activity notification badge foreground color.
+
+# Side Bar
+# https://code.visualstudio.com/api/references/theme-color#side-bar
+
+sideBar.background: null # Side Bar background color.
+sideBar.foreground: null # Side Bar foreground color. The Side Bar is the container for views like Explorer and Search.
+sideBar.border: null # Side Bar border color on the side separating the editor.
+sideBar.dropBackground: null # Drag and drop feedback color for the side bar sections. The color should have transparency so that the side bar sections can still shine through. The side bar is the container for views like explorer and search.
+sideBarTitle.foreground: null # Side Bar title foreground color.
+sideBarSectionHeader.background: null # Side Bar section header background color.
+sideBarSectionHeader.foreground: null # Side Bar section header foreground color.
+sideBarSectionHeader.border: null # Side bar section header border color.
+
+# Editor Groups & Tabs
+# https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
+
+editorGroup.border: null # Color to separate multiple editor groups from each other.
+editorGroup.dropBackground: null # Background color when dragging editors around.
+editorGroupHeader.noTabsBackground: null # Background color of the editor group title header when Tabs are disabled (set "workbench.editor.showTabs": null # false).
+editorGroupHeader.tabsBackground: null # Background color of the Tabs container.
+editorGroupHeader.tabsBorder: null # Border color of the editor group title header when tabs are enabled.
+editorGroup.emptyBackground: null # Background color of an empty editor group.
+editorGroup.focusedEmptyBorder: null # Border color of an empty editor group that is focused.
+tab.activeBackground: null # Active Tab background color.
+tab.activeForeground: null # Active Tab foreground color in an active group.
+tab.border: null # Border to separate Tabs from each other.
+tab.activeBorder: null # Bottom border for the active tab.
+tab.unfocusedActiveBorder: null # Bottom border for the active tab in an inactive editor group.
+tab.activeBorderTop: null # Top border for the active tab.
+tab.unfocusedActiveBorderTop: null # Top border for the active tab in an inactive editor group
+tab.inactiveBackground: null # Inactive Tab background color.
+tab.inactiveForeground: null # Inactive Tab foreground color in an active group.
+tab.unfocusedActiveForeground: null # Active tab foreground color in an inactive editor group.
+tab.unfocusedInactiveForeground: null # Inactive tab foreground color in an inactive editor group.
+tab.hoverBackground: null # Tab background color when hovering
+tab.unfocusedHoverBackground: null # Tab background color in an unfocused group when hovering
+tab.hoverBorder: null # Border to highlight tabs when hovering
+tab.unfocusedHoverBorder: null # Border to highlight tabs in an unfocused group when hovering
+tab.activeModifiedBorder: null # Border on the top of modified (dirty) active tabs in an active group.
+tab.inactiveModifiedBorder: null # Border on the top of modified (dirty) inactive tabs in an active group.
+tab.unfocusedActiveModifiedBorder: null # Border on the top of modified (dirty) active tabs in an unfocused group.
+tab.unfocusedInactiveModifiedBorder: null # Border on the top of modified (dirty) inactive tabs in an unfocused group.
+editorPane.background: null # Background color of the editor pane visible on the left and right side of the centered editor layout.
+
+# Editor colors
+# https://code.visualstudio.com/api/references/theme-color#editor-colors
+
+editor.background: null # Editor background color.
+editor.foreground: null # Editor default foreground color.
+editorLineNumber.foreground: null # Color of editor line numbers.
+editorLineNumber.activeForeground: null # Color of the active editor line number.
+editorCursor.background: null # The background color of the editor cursor. Allows customizing the color of a character overlapped by a block cursor.
+editorCursor.foreground: null # Color of the editor cursor.
+editor.selectionBackground: null # Color of the editor selection.
+editor.selectionForeground: null # Color of the selected text for high contrast.
+editor.inactiveSelectionBackground: null # Color of the selection in an inactive editor. The color must not be opaque so as not to hide underlying decorations.
+editor.selectionHighlightBackground: null # Color for regions with the same content as the selection. The color must not be opaque so as not to hide underlying decorations.
+editor.selectionHighlightBorder: null # Border color for regions with the same content as the selection.
+editor.wordHighlightBackground: null # Background color of a symbol during read-access, for example when reading a variable. The color must not be opaque so as not to hide underlying decorations.
+editor.wordHighlightBorder: null # Border color of a symbol during read-access, for example when reading a variable.
+editor.wordHighlightStrongBackground: null # Background color of a symbol during write-access, for example when writing to a variable. The color must not be opaque so as not to hide underlying decorations.
+editor.wordHighlightStrongBorder: null # Border color of a symbol during write-access, for example when writing to a variable.
+editor.findMatchBackground: null # Color of the current search match.
+editor.findMatchHighlightBackground: null # Color of the other search matches. The color must not be opaque so as not to hide underlying decorations.
+editor.findRangeHighlightBackground: null # Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque so as not to hide underlying decorations.
+editor.findMatchBorder: null # Border color of the current search match.
+editor.findMatchHighlightBorder: null # Border color of the other search matches.
+editor.findRangeHighlightBorder: null # Border color the range limiting the search (Enable 'Find in Selection' in the find widget).
+editor.hoverHighlightBackground: null # Highlight below the word for which a hover is shown. The color must not be opaque so as not to hide underlying decorations.
+editor.lineHighlightBackground: null # Background color for the highlight of line at the cursor position.
+editor.lineHighlightBorder: null # Background color for the border around the line at the cursor position.
+editorLink.activeForeground: null # Color of active links.
+editor.rangeHighlightBackground: null # Background color of highlighted ranges, used by Quick Open, Symbol in File and Find features. The color must not be opaque so as not to hide underlying decorations.
+editor.rangeHighlightBorder: null # Background color of the border around highlighted ranges.
+editorWhitespace.foreground: null # Color of whitespace characters in the editor.
+editorIndentGuide.background: null # Color of the editor indentation guides.
+editorIndentGuide.activeBackground: null # Color of the active editor indentation guide.
+editorRuler.foreground: null # Color of the editor rulers.
+editorCodeLens.foreground: null # Foreground color of an editor CodeLens.
+editorBracketMatch.background: null # Background color behind matching brackets.
+editorBracketMatch.border: null # Color for matching brackets boxes.
+editorOverviewRuler.border: null # Color of the overview ruler border.
+editorOverviewRuler.findMatchForeground: null # Overview ruler marker color for find matches. The color must not be opaque so as not to hide underlying decorations.
+editorOverviewRuler.rangeHighlightForeground: null # Overview ruler marker color for highlighted ranges, like by the Quick Open, Symbol in File and Find features. The color must not be opaque so as not to hide underlying decorations.
+editorOverviewRuler.selectionHighlightForeground: null # Overview ruler marker color for selection highlights. The color must not be opaque so as not to hide underlying decorations.
+editorOverviewRuler.wordHighlightForeground: null # Overview ruler marker color for symbol highlights. The color must not be opaque so as not to hide underlying decorations.
+editorOverviewRuler.wordHighlightStrongForeground: null # Overview ruler marker color for write-access symbol highlights. The color must not be opaque so as not to hide underlying decorations.
+editorOverviewRuler.modifiedForeground: null # Overview ruler marker color for modified content.
+editorOverviewRuler.addedForeground: null # Overview ruler marker color for added content.
+editorOverviewRuler.deletedForeground: null # Overview ruler marker color for deleted content.
+editorOverviewRuler.errorForeground: null # Overview ruler marker color for errors.
+editorOverviewRuler.warningForeground: null # Overview ruler marker color for warnings.
+editorOverviewRuler.infoForeground: null # Overview ruler marker color for infos.
+editorOverviewRuler.bracketMatchForeground: null # Overview ruler marker color for matching brackets.
+editorError.foreground: null # Foreground color of error squiggles in the editor.
+editorError.border: null # Border color of error squiggles in the editor.
+editorWarning.foreground: null # Foreground color of warning squiggles in the editor.
+editorWarning.border: null # Border color of warning squiggles in the editor.
+editorInfo.foreground: null # Foreground color of info squiggles in the editor.
+editorInfo.border: null # Border color of info squiggles in the editor.
+editorHint.foreground: null # Foreground color of hints in the editor.
+editorHint.border: null # Border color of hints in the editor.
+editorUnnecessaryCode.border: null # Border color of unnecessary (unused) source code in the editor.
+editorUnnecessaryCode.opacity: null # Opacity of unnecessary (unused) source code in the editor. For example, "#000000c0" will render the code with 75% opacity. For high contrast themes, use the "editorUnnecessaryCode.border" theme color to underline unnecessary code instead of fading it out.
+editorGutter.background: null # Background color of the editor gutter. The gutter contains the glyph margins and the line numbers.
+editorGutter.modifiedBackground: null # Editor gutter background color for lines that are modified.
+editorGutter.addedBackground: null # Editor gutter background color for lines that are added.
+editorGutter.deletedBackground: null # Editor gutter background color for lines that are deleted.
+
+# Diff editor colors
+# https://code.visualstudio.com/api/references/theme-color#diff-editor-colors
+
+diffEditor.insertedTextBackground: null # Background color for text that got inserted. The color must not be opaque so as not to hide underlying decorations.
+diffEditor.insertedTextBorder: null # Outline color for the text that got inserted.
+diffEditor.removedTextBackground: null # Background color for text that got removed. The color must not be opaque so as not to hide underlying decorations.
+diffEditor.removedTextBorder: null # Outline color for text that got removed.
+diffEditor.border: null # Border color between the two text editors.
+
+# Editor widget colors
+# https://code.visualstudio.com/api/references/theme-color#editor-widget-colors
+
+editorWidget.background: null # Background color of editor widgets, such as Find/Replace.
+editorWidget.border: null # Border color of the editor widget unless the widget does not contain a border or defines its own border color.
+editorWidget.resizeBorder: null # Border color of the resize bar of editor widgets. The color is only used if the widget chooses to have a resize border and if the color is not overridden by a widget.
+editorSuggestWidget.background: null # Background color of the suggestion widget.
+editorSuggestWidget.border: null # Border color of the suggestion widget.
+editorSuggestWidget.foreground: null # Foreground color of the suggestion widget.
+editorSuggestWidget.highlightForeground: null # Color of the match highlights in the suggestion widget.
+editorSuggestWidget.selectedBackground: null # Background color of the selected entry in the suggestion widget.
+editorHoverWidget.background: null # Background color of the editor hover.
+editorHoverWidget.border: null # Border color of the editor hover.
+debugExceptionWidget.background: null # Exception widget background color.
+debugExceptionWidget.border: null # Exception widget border color.
+editorMarkerNavigation.background: null # Editor marker navigation widget background.
+editorMarkerNavigationError.background: null # Editor marker navigation widget error color.
+editorMarkerNavigationWarning.background: null # Editor marker navigation widget warning color.
+editorMarkerNavigationInfo.background: null # Editor marker navigation widget info color.
+
+# Peek view colors
+# https://code.visualstudio.com/api/references/theme-color#peek-view-colors
+
+peekView.border: null # Color of the peek view borders and arrow.
+peekViewEditor.background: null # Background color of the peek view editor.
+peekViewEditorGutter.background: null # Background color of the gutter in the peek view editor.
+peekViewEditor.matchHighlightBackground: null # Match highlight color in the peek view editor.
+peekViewEditor.matchHighlightBorder: null # Match highlight border color in the peek view editor.
+peekViewResult.background: null # Background color of the peek view result list.
+peekViewResult.fileForeground: null # Foreground color for file nodes in the peek view result list.
+peekViewResult.lineForeground: null # Foreground color for line nodes in the peek view result list.
+peekViewResult.matchHighlightBackground: null # Match highlight color in the peek view result list.
+peekViewResult.selectionBackground: null # Background color of the selected entry in the peek view result list.
+peekViewResult.selectionForeground: null # Foreground color of the selected entry in the peek view result list.
+peekViewTitle.background: null # Background color of the peek view title area.
+peekViewTitleDescription.foreground: null # Color of the peek view title info.
+peekViewTitleLabel.foreground: null # Color of the peek view title.
+
+# Merge conflicts
+# https://code.visualstudio.com/api/references/theme-color#merge-conflicts
+
+merge.currentHeaderBackground: null # Current header background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
+merge.currentContentBackground: null # Current content background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
+merge.incomingHeaderBackground: null # Incoming header background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
+merge.incomingContentBackground: null # Incoming content background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
+merge.border: null # Border color on headers and the splitter in inline merge conflicts.
+merge.commonContentBackground: null # Common ancestor content background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.
+merge.commonHeaderBackground: null # Common ancestor header background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.
+editorOverviewRuler.currentContentForeground: null # Current overview ruler foreground for inline merge conflicts.
+editorOverviewRuler.incomingContentForeground: null # Incoming overview ruler foreground for inline merge conflicts.
+editorOverviewRuler.commonContentForeground: null # Common ancestor overview ruler foreground for inline merge conflicts.
+
+# Panel colors
+# https://code.visualstudio.com/api/references/theme-color#panel-colors
+
+panel.background: null # Panel background color.
+panel.border: null # Panel border color to separate the panel from the editor.
+panel.dropBackground: null # Drag and drop feedback color for the panel title items. The color should have transparency so that the panel entries can still shine through.
+panelTitle.activeBorder: null # Border color for the active panel title.
+panelTitle.activeForeground: null # Title color for the active panel.
+panelTitle.inactiveForeground: null # Title color for the inactive panel.
+
+# Status Bar colors
+# https://code.visualstudio.com/api/references/theme-color#status-bar-colors
+
+statusBar.background: null # Standard Status Bar background color.
+statusBar.foreground: null # Status Bar foreground color.
+statusBar.border: null # Status Bar border color separating the Status Bar and editor.
+statusBar.debuggingBackground: null # Status Bar background color when a program is being debugged.
+statusBar.debuggingForeground: null # Status Bar foreground color when a program is being debugged.
+statusBar.debuggingBorder: null # Status Bar border color separating the Status Bar and editor when a program is being debugged.
+statusBar.noFolderForeground: null # Status Bar foreground color when no folder is opened.
+statusBar.noFolderBackground: null # Status Bar background color when no folder is opened.
+statusBar.noFolderBorder: null # Status Bar border color separating the Status Bar and editor when no folder is opened.
+statusBarItem.activeBackground: null # Status Bar item background color when clicking.
+statusBarItem.hoverBackground: null # Status Bar item background color when hovering.
+statusBarItem.prominentBackground: null # Status Bar prominent items background color. Prominent items stand out from other Status Bar entries to indicate importance. Change mode Toggle Tab Key Moves Focus from command palette to see an example.
+statusBarItem.prominentHoverBackground: null # Status Bar prominent items background color when hovering. Prominent items stand out from other Status Bar entries to indicate importance. Change mode Toggle Tab Key Moves Focus from command palette to see an example.
+
+# Title Bar colors
+# https://code.visualstudio.com/api/references/theme-color#title-bar-colors
+
+titleBar.activeBackground: null # Title Bar background when the window is active.
+titleBar.activeForeground: null # Title Bar foreground when the window is active.
+titleBar.inactiveBackground: null # Title Bar background when the window is inactive.
+titleBar.inactiveForeground: null # Title Bar foreground when the window is inactive.
+titleBar.border: null # Title bar border color.
+
+# Menu Bar colors
+# https://code.visualstudio.com/api/references/theme-color#menu-bar-colors
+
+menubar.selectionForeground: null # Foreground color of the selected menu item in the menubar.
+menubar.selectionBackground: null # Background color of the selected menu item in the menubar.
+menubar.selectionBorder: null # Border color of the selected menu item in the menubar.
+menu.foreground: null # Foreground color of menu items.
+menu.background: null # Background color of menu items.
+menu.selectionForeground: null # Foreground color of the selected menu item in menus.
+menu.selectionBackground: null # Background color of the selected menu item in menus.
+menu.selectionBorder: null # Border color of the selected menu item in menus.
+menu.separatorBackground: null # Color of a separator menu item in menus.
+
+# Notification colors
+# https://code.visualstudio.com/api/references/theme-color#notification-colors
+
+notificationCenter.border: null # Notification Center border color.
+notificationCenterHeader.foreground: null # Notification Center header foreground color.
+notificationCenterHeader.background: null # Notification Center header background color.
+notificationToast.border: null # Notification toast border color.
+notifications.foreground: null # Notification foreground color.
+notifications.background: null # Notification background color.
+notifications.border: null # Notification border color separating from other notifications in the Notification Center.
+notificationLink.foreground: null # Notification links foreground color.
+
+# Extensions
+# https://code.visualstudio.com/api/references/theme-color#extensions
+
+extensionButton.prominentForeground: null # Extension view button foreground color (for example Install button).
+extensionButton.prominentBackground: null # Extension view button background color.
+extensionButton.prominentHoverBackground: null # Extension view button background hover color.
+
+# Quick picker
+# https://code.visualstudio.com/api/references/theme-color#quick-picker
+
+pickerGroup.border: null # Quick picker (Quick Open) color for grouping borders.
+pickerGroup.foreground: null # Quick picker (Quick Open) color for grouping labels.
+
+# Integrated Terminal colors
+# https://code.visualstudio.com/api/references/theme-color#integrated-terminal-colors
+
+terminal.background: null # The background of the Integrated Terminal's viewport.
+terminal.border: null # The color of the border that separates split panes within the terminal. This defaults to panel.border.
+terminal.foreground: null # The default foreground color of the Integrated Terminal.
+terminal.ansiBlack: null # 'Black' ANSI color in the terminal.
+terminal.ansiBlue: null # 'Blue' ANSI color in the terminal.
+terminal.ansiBrightBlack: null # 'BrightBlack' ANSI color in the terminal.
+terminal.ansiBrightBlue: null # 'BrightBlue' ANSI color in the terminal.
+terminal.ansiBrightCyan: null # 'BrightCyan' ANSI color in the terminal.
+terminal.ansiBrightGreen: null # 'BrightGreen' ANSI color in the terminal.
+terminal.ansiBrightMagenta: null # 'BrightMagenta' ANSI color in the terminal.
+terminal.ansiBrightRed: null # 'BrightRed' ANSI color in the terminal.
+terminal.ansiBrightWhite: null # 'BrightWhite' ANSI color in the terminal.
+terminal.ansiBrightYellow: null # 'BrightYellow' ANSI color in the terminal.
+terminal.ansiCyan: null # 'Cyan' ANSI color in the terminal.
+terminal.ansiGreen: null # 'Green' ANSI color in the terminal.
+terminal.ansiMagenta: null # 'Magenta' ANSI color in the terminal.
+terminal.ansiRed: null # 'Red' ANSI color in the terminal.
+terminal.ansiWhite: null # 'White' ANSI color in the terminal.
+terminal.ansiYellow: null # 'Yellow' ANSI color in the terminal.
+terminal.selectionBackground: null # The selection background color of the terminal.
+terminalCursor.background: null # The background color of the terminal cursor. Allows customizing the color of a character overlapped by a block cursor.
+terminalCursor.foreground: null # The foreground color of the terminal cursor.
+
+# Debug
+# https://code.visualstudio.com/api/references/theme-color#debug
+
+debugToolBar.background: null # Debug toolbar background color.
+debugToolBar.border: null # Debug toolbar border color.
+editor.stackFrameHighlightBackground: null # Background color of the top stack frame highlight in the editor.
+editor.focusedStackFrameHighlightBackground: null # Background color of the focused stack frame highlight in the editor.
+
+# Welcome page
+# https://code.visualstudio.com/api/references/theme-color#welcome-page
+
+welcomePage.background: null # Background color for the Welcome page.
+welcomePage.buttonBackground: null # Background color for the buttons on the Welcome page.
+welcomePage.buttonHoverBackground: null # Hover background color for the buttons on the Welcome page.
+walkThrough.embeddedEditorBackground: null # Background color for the embedded editors on the Interactive Playground.
+
+# Git colors
+# https://code.visualstudio.com/api/references/theme-color#git-colors
+
+gitDecoration.addedResourceForeground: null # Color for added Git resources. Used for file labels and the SCM viewlet.
+gitDecoration.modifiedResourceForeground: null # Color for modified Git resources. Used for file labels and the SCM viewlet.
+gitDecoration.deletedResourceForeground: null # Color for deleted Git resources. Used for file labels and the SCM viewlet.
+gitDecoration.untrackedResourceForeground: null # Color for untracked Git resources. Used for file labels and the SCM viewlet.
+gitDecoration.ignoredResourceForeground: null # Color for ignored Git resources. Used for file labels and the SCM viewlet.
+gitDecoration.conflictingResourceForeground: null # Color for conflicting Git resources. Used for file labels and the SCM viewlet.
+gitDecoration.submoduleResourceForeground: null # Color for submodule resources.
+
+# Settings Editor colors
+# https://code.visualstudio.com/api/references/theme-color#settings-editor-colors
+
+settings.headerForeground: null # The foreground color for a section header or active title.
+settings.modifiedItemIndicator: null # The line that indicates a modified setting.
+settings.dropdownBackground: null # Dropdown background.
+settings.dropdownForeground: null # Dropdown foreground.
+settings.dropdownBorder: null # Dropdown border.
+settings.dropdownListBorder: null # Dropdown list border.
+settings.checkboxBackground: null # Checkbox background.
+settings.checkboxForeground: null # Checkbox foreground.
+settings.checkboxBorder: null # Checkbox border.
+settings.textInputBackground: null # Text input box background.
+settings.textInputForeground: null # Text input box foreground.
+settings.textInputBorder: null # Text input box border.
+settings.numberInputBackground: null # Number input box background.
+settings.numberInputForeground: null # Number input box foreground.
+settings.numberInputBorder: null # Number input box border.
+
+# Breadcrumbs
+# https://code.visualstudio.com/api/references/theme-color#breadcrumbs
+
+breadcrumb.background: null # Background color of breadcrumb.
+breadcrumb.foreground: null # Color of breadcrumb items.
+# breadcrumb.background: null # Background color of breadcrumb items.
+breadcrumb.focusForeground: null # Color of focused breadcrumb items.
+breadcrumb.activeSelectionForeground: null # Color of selected breadcrumb items.
+breadcrumbPicker.background: null # Background color of breadcrumb item picker.
+
+# Snippets
+# https://code.visualstudio.com/api/references/theme-color#snippets
+
+editor.snippetTabstopHighlightBackground: null # Highlight background color of a snippet tabstop.
+editor.snippetTabstopHighlightBorder: null # Highlight border color of a snippet tabstop.
+editor.snippetFinalTabstopHighlightBackground: null # Highlight background color of the final tabstop of a snippet.
+editor.snippetFinalTabstopHighlightBorder: null # Highlight border color of the final tabstop of a snippet.

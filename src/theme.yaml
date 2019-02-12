@@ -1,0 +1,3 @@
+base:
+  - &SAMPLE_VARIABLE_1 '#ff0080'
+  - &SAMPLE_VARIABLE_2 '#ff8000'
