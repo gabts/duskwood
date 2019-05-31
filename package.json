@@ -2,7 +2,7 @@
   "name": "dusky-theme",
   "displayName": "Dusky",
   "version": "1.0.0",
-  "description": "A dusky theme fro Visual Studio Code.",
+  "description": "A dusky theme for Visual Studio Code.",
   "author": "Gabriel Toll Stålbom <gabtost@gmail.com>",
   "publisher": "gabbes",
   "license": "MIT",
@@ -40,7 +40,7 @@
     "build": "node index"
   },
   "devDependencies": {
-    "js-yaml": "^3.12.1",
-    "prettier": "^1.16.4"
+    "js-yaml": "^3.13.1",
+    "prettier": "^1.17.1"
   }
 }
