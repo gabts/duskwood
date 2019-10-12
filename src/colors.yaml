@@ -1,7 +1,7 @@
 # Contrast colors
 # https://code.visualstudio.com/api/references/theme-color#contrast-colors
 
-contrastActiveBorder: *SAMPLE_VARIABLE_1 # An extra border around active elements to separate them from others for greater contrast.
+contrastActiveBorder: null # An extra border around active elements to separate them from others for greater contrast.
 contrastBorder: null # An extra border around elements to separate them from others for greater contrast.
 
 # Base colors
@@ -101,22 +101,22 @@ listFilterWidget.noMatchesOutline: null # List/Tree Filter Widget's outline colo
 # Activity Bar
 # https://code.visualstudio.com/api/references/theme-color#activity-bar
 
-activityBar.background: null # Activity Bar background color.
+activityBar.background: *SHADE_0 # Activity Bar background color.
 activityBar.dropBackground: null # Drag and drop feedback color for the Activity Bar items.
 activityBar.foreground: null # Activity bar foreground color (for example used for the icons).
 activityBar.inactiveForeground: null # Activity bar item foreground color when it is inactive.
-activityBar.border: null # Activity Bar border color with the Side Bar.
+activityBar.border: *SHADE_1 # Activity Bar border color with the Side Bar.
 activityBarBadge.background: null # Activity notification badge background color.
 activityBarBadge.foreground: null # Activity notification badge foreground color.
 
 # Side Bar
 # https://code.visualstudio.com/api/references/theme-color#side-bar
 
-sideBar.background: null # Side Bar background color.
-sideBar.foreground: null # Side Bar foreground color. The Side Bar is the container for views like Explorer and Search.
-sideBar.border: null # Side Bar border color on the side separating the editor.
+sideBar.background: *SHADE_0 # Side Bar background color.
+sideBar.foreground: *WHITE # Side Bar foreground color. The Side Bar is the container for views like Explorer and Search.
+sideBar.border: *SHADE_1 # Side Bar border color on the side separating the editor.
 sideBar.dropBackground: null # Drag and drop feedback color for the side bar sections. The color should have transparency so that the side bar sections can still shine through. The side bar is the container for views like explorer and search.
-sideBarTitle.foreground: null # Side Bar title foreground color.
+sideBarTitle.foreground: *SHADE_5 # Side Bar title foreground color.
 sideBarSectionHeader.background: null # Side Bar section header background color.
 sideBarSectionHeader.foreground: null # Side Bar section header foreground color.
 sideBarSectionHeader.border: null # Side bar section header border color.
@@ -127,18 +127,18 @@ sideBarSectionHeader.border: null # Side bar section header border color.
 editorGroup.border: null # Color to separate multiple editor groups from each other.
 editorGroup.dropBackground: null # Background color when dragging editors around.
 editorGroupHeader.noTabsBackground: null # Background color of the editor group title header when Tabs are disabled (set "workbench.editor.showTabs": null # false).
-editorGroupHeader.tabsBackground: null # Background color of the Tabs container.
-editorGroupHeader.tabsBorder: null # Border color of the editor group title header when tabs are enabled.
+editorGroupHeader.tabsBackground: *SHADE_0 # Background color of the Tabs container.
+editorGroupHeader.tabsBorder: *SHADE_1 # Border color of the editor group title header when tabs are enabled.
 editorGroup.emptyBackground: null # Background color of an empty editor group.
 editorGroup.focusedEmptyBorder: null # Border color of an empty editor group that is focused.
-tab.activeBackground: null # Active Tab background color.
-tab.activeForeground: null # Active Tab foreground color in an active group.
+tab.activeBackground: *SHADE_1 # Active Tab background color.
+tab.activeForeground: *WHITE # Active Tab foreground color in an active group.
 tab.border: null # Border to separate Tabs from each other.
 tab.activeBorder: null # Bottom border for the active tab.
 tab.unfocusedActiveBorder: null # Bottom border for the active tab in an inactive editor group.
 tab.activeBorderTop: null # Top border for the active tab.
 tab.unfocusedActiveBorderTop: null # Top border for the active tab in an inactive editor group
-tab.inactiveBackground: null # Inactive Tab background color.
+tab.inactiveBackground: *SHADE_0 # Inactive Tab background color.
 tab.inactiveForeground: null # Inactive Tab foreground color in an active group.
 tab.unfocusedActiveForeground: null # Active tab foreground color in an inactive editor group.
 tab.unfocusedInactiveForeground: null # Inactive tab foreground color in an inactive editor group.
@@ -155,9 +155,9 @@ editorPane.background: null # Background color of the editor pane visible on the
 # Editor colors
 # https://code.visualstudio.com/api/references/theme-color#editor-colors
 
-editor.background: null # Editor background color.
+editor.background: *SHADE_0 # Editor background color.
 editor.foreground: null # Editor default foreground color.
-editorLineNumber.foreground: null # Color of editor line numbers.
+editorLineNumber.foreground: *SHADE_2 # Color of editor line numbers.
 editorLineNumber.activeForeground: null # Color of the active editor line number.
 editorCursor.background: null # The background color of the editor cursor. Allows customizing the color of a character overlapped by a block cursor.
 editorCursor.foreground: null # Color of the editor cursor.
@@ -183,9 +183,9 @@ editorLink.activeForeground: null # Color of active links.
 editor.rangeHighlightBackground: null # Background color of highlighted ranges, used by Quick Open, Symbol in File and Find features. The color must not be opaque so as not to hide underlying decorations.
 editor.rangeHighlightBorder: null # Background color of the border around highlighted ranges.
 editorWhitespace.foreground: null # Color of whitespace characters in the editor.
-editorIndentGuide.background: null # Color of the editor indentation guides.
+editorIndentGuide.background: *SHADE_2 # Color of the editor indentation guides.
 editorIndentGuide.activeBackground: null # Color of the active editor indentation guide.
-editorRuler.foreground: null # Color of the editor rulers.
+editorRuler.foreground: *SHADE_2 # Color of the editor rulers.
 editorCodeLens.foreground: null # Foreground color of an editor CodeLens.
 editorBracketMatch.background: null # Background color behind matching brackets.
 editorBracketMatch.border: null # Color for matching brackets boxes.
@@ -281,8 +281,8 @@ editorOverviewRuler.commonContentForeground: null # Common ancestor overview rul
 # Panel colors
 # https://code.visualstudio.com/api/references/theme-color#panel-colors
 
-panel.background: null # Panel background color.
-panel.border: null # Panel border color to separate the panel from the editor.
+panel.background: *SHADE_1 # Panel background color.
+panel.border: *SHADE_1 # Panel border color to separate the panel from the editor.
 panel.dropBackground: null # Drag and drop feedback color for the panel title items. The color should have transparency so that the panel entries can still shine through.
 panelTitle.activeBorder: null # Border color for the active panel title.
 panelTitle.activeForeground: null # Title color for the active panel.
@@ -291,7 +291,7 @@ panelTitle.inactiveForeground: null # Title color for the inactive panel.
 # Status Bar colors
 # https://code.visualstudio.com/api/references/theme-color#status-bar-colors
 
-statusBar.background: null # Standard Status Bar background color.
+statusBar.background: *SHADE_0 # Standard Status Bar background color.
 statusBar.foreground: null # Status Bar foreground color.
 statusBar.border: null # Status Bar border color separating the Status Bar and editor.
 statusBar.debuggingBackground: null # Status Bar background color when a program is being debugged.
@@ -355,8 +355,8 @@ pickerGroup.foreground: null # Quick picker (Quick Open) color for grouping labe
 # Integrated Terminal colors
 # https://code.visualstudio.com/api/references/theme-color#integrated-terminal-colors
 
-terminal.background: null # The background of the Integrated Terminal's viewport.
-terminal.border: null # The color of the border that separates split panes within the terminal. This defaults to panel.border.
+terminal.background: *SHADE_0 # The background of the Integrated Terminal's viewport.
+terminal.border: *SHADE_1 # The color of the border that separates split panes within the terminal. This defaults to panel.border.
 terminal.foreground: null # The default foreground color of the Integrated Terminal.
 terminal.ansiBlack: null # 'Black' ANSI color in the terminal.
 terminal.ansiBlue: null # 'Blue' ANSI color in the terminal.

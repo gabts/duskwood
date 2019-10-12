@@ -1,3 +1,14 @@
-base:
-  - &SAMPLE_VARIABLE_1 '#ff0080'
-  - &SAMPLE_VARIABLE_2 '#ff8000'
+theme:
+  - &SHADE_0 '#181821'
+  - &SHADE_1 '#232330'
+  - &SHADE_2 '#2d2d3f'
+  - &SHADE_3 '#38384d'
+  - &SHADE_4 '#43435c'
+  - &SHADE_5 '#4d4d6b'
+
+  - &WHITE '#F5F5F5'
+  - &BLUE '#86c7fc'
+  - &YELLOW '#FAF4A1'
+  - &RED '#FC86C7'
+  - &PURPLE '#BB86FC'
+  - &TEAL '#03DAC5'

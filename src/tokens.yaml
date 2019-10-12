@@ -1,3 +1,58 @@
+- scope:
+  - source
+  - variable.other
+  - meta.brace.round
+  - punctuation.separator.comma
+  - punctuation.accessor
+  settings:
+    foreground: *WHITE
+
 - scope: comment
   settings:
-    foreground: *SAMPLE_VARIABLE_2
+    foreground: *SHADE_5
+
+- scope:
+  - meta.function-call
+  - support.function
+  - entity.other.attribute-name
+  settings:
+    foreground: *TEAL
+
+- scope:
+  - entity.name.tag.yaml
+  - entity.name.type
+  - support.type.property-name.json
+  - support.constant
+  - support.class.builtin
+  - support.class.component
+  - support.class.console
+  - support.type.builtin
+  - support.type.primitive
+  settings:
+    foreground: *BLUE
+
+- scope:
+  - constant.numeric
+  - constant.language
+  - constant.character
+  - string.regexp
+  settings:
+    foreground: *PURPLE
+
+- scope:
+  - string
+  - variable.other.alias.yaml
+  settings:
+    foreground: *YELLOW
+
+- scope:
+  - storage
+  - punctuation.definition.anchor.yaml
+  - punctuation.definition.alias.yaml
+  - keyword.control
+  - keyword.operator
+  - punctuation.definition.template-expression
+  - punctuation.separator.key-value
+  - punctuation.separator.dictionary.key-value
+  settings:
+    foreground: *RED
