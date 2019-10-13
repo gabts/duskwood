@@ -1,6 +1,6 @@
-# Dusky
+# Duskwood
 
-> A dusky theme for [Visual Studio Code](http://code.visualstudio.com).
+> A duskwoody theme for [Visual Studio Code](http://code.visualstudio.com).
 
 ## Development
 

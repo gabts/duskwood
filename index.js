@@ -33,7 +33,7 @@ const colors = Object.keys(obj.colors).reduce((acc, key) => {
 
 // Construct final theme object.
 const theme = {
-  name: 'Dusky',
+  name: 'Duskwood',
   author: 'Gabriel Toll Stålbom',
   type: 'dark',
   colors,
@@ -41,4 +41,7 @@ const theme = {
 };
 
 // Write theme Json distribution file.
-fs.writeFileSync('./theme/dusky.json', `${JSON.stringify(theme, null, 2)}\n`);
+fs.writeFileSync(
+  './theme/duskwood.json',
+  `${JSON.stringify(theme, null, 2)}\n`
+);

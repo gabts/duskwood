@@ -1,8 +1,8 @@
 {
-  "name": "dusky-theme",
-  "displayName": "Dusky",
+  "name": "duskwood-theme",
+  "displayName": "Duskwood",
   "version": "1.0.0",
-  "description": "A dusky theme for Visual Studio Code.",
+  "description": "A duskwoody theme for Visual Studio Code.",
   "author": "Gabriel Toll Stålbom <gabtost@gmail.com>",
   "publisher": "gabbes",
   "license": "MIT",
@@ -12,9 +12,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/gabbes/dusky.git"
+    "url": "https://github.com/gabbes/duskwood.git"
   },
-  "bugs": "https://github.com/gabbes/dusky/issues",
+  "bugs": "https://github.com/gabbes/duskwood/issues",
   "galleryBanner": {
     "color": "#061526",
     "theme": "dark"
@@ -29,9 +29,9 @@
   "contributes": {
     "themes": [
       {
-        "id": "Dusky",
-        "label": "Dusky",
-        "path": "./theme/dusky.json",
+        "id": "Duskwood",
+        "label": "Duskwood",
+        "path": "./theme/duskwood.json",
         "uiTheme": "vs-dark"
       }
     ]
