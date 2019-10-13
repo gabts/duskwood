@@ -31,6 +31,11 @@ const colors = Object.keys(obj.colors).reduce((acc, key) => {
   return acc;
 }, {});
 
+// Ensure theme directory exists
+if (!fs.existsSync('./theme')) {
+  fs.mkdirSync('./theme');
+}
+
 // Construct final theme object.
 const theme = {
   name: 'Duskwood',
