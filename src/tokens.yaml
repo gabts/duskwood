@@ -21,6 +21,7 @@
 - scope:
   - entity.name.tag.yaml
   - entity.name.type
+  - entity.other.inherited-class
   - support.type.property-name.json
   - support.constant
   - support.class.builtin
