@@ -12,8 +12,7 @@
     foreground: *SHADE_5
 
 - scope:
-  - meta.function-call
-  - support.function
+  - entity.name.function
   - entity.other.attribute-name
   settings:
     foreground: *TEAL
@@ -29,6 +28,7 @@
   - support.class.console
   - support.type.builtin
   - support.type.primitive
+  - support.variable.object
   settings:
     foreground: *BLUE
 
@@ -55,5 +55,6 @@
   - punctuation.definition.template-expression
   - punctuation.separator.key-value
   - punctuation.separator.dictionary.key-value
+  - variable.language.this
   settings:
     foreground: *RED
