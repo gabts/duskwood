@@ -37,11 +37,18 @@
     ]
   },
   "scripts": {
-    "build": "node index"
+    "build": "node index",
+    "commit": "git-cz"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "3.0.2",
     "js-yaml": "^3.13.1",
     "prettier": "^1.18.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "__metadata": {
     "id": "a6893f93-4ab4-4d6a-b6dd-979ad54f11ac",
