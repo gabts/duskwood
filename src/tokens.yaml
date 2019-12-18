@@ -9,7 +9,7 @@
 
 - scope: comment
   settings:
-    foreground: *SHADE_5
+    foreground: *BACKGROUND_EXTRA_LIGHT
 
 - scope:
   - entity.name.function
