@@ -37,7 +37,8 @@
     "vscode": "^1.41.1"
   },
   "scripts": {
-    "build": "node index",
+    "build": "node scripts/build.js",
+    "watch": "node scripts/watch.js",
     "commit": "git-cz",
     "prepublish": "rimraf ./theme && node index"
   },
