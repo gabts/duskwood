@@ -33,6 +33,9 @@
       }
     ]
   },
+  "engines": {
+    "vscode": "^1.41.1"
+  },
   "scripts": {
     "build": "node index",
     "commit": "git-cz",
