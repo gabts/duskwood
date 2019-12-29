@@ -9,14 +9,14 @@
 
 - scope: comment
   settings:
-    foreground: *BACKGROUND_EXTRA_LIGHT
+    foreground: '#ff00ff'
 
 - scope:
   - entity.name.function
   - entity.other.attribute-name
   - meta.function-call
   settings:
-    foreground: *TEAL
+    foreground: *GREEN
 
 - scope:
   - entity.name.tag.yaml
@@ -39,7 +39,7 @@
   - constant.character
   - string.regexp
   settings:
-    foreground: *PURPLE
+    foreground: *MAGENTA
 
 - scope:
   - string
