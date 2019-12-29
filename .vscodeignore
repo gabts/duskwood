@@ -1,7 +1,7 @@
 .gitignore
 .prettierrc
 .vscode
-index.js
 node_modules
+scripts
 src
 yarn.lock
