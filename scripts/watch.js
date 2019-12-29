@@ -1,19 +1,21 @@
 const fs = require('fs');
 const parseYaml = require('./parse-yaml');
 
-let lastEventMS;
+let lastTimeMs;
 
 function watch(e, filename) {
-  const eventMS = fs.statSync('./src/' + filename).mtime.getTime();
+  const { mtime, mtimeMs } = fs.statSync('./src/' + filename);
 
   // Prevent parsing twince per event
-  if (lastEventMS === eventMS) {
+  if (lastTimeMs === mtimeMs) {
     return;
   }
 
-  lastEventMS = eventMS;
+  lastTimeMs = mtimeMs;
 
-  console.log('📝  writing .vscode/settings.json');
+  console.log(
+    `📝  writing >> .vscode/settings.json @ ${mtime.toLocaleString()}`
+  );
 
   const theme = parseYaml();
 
