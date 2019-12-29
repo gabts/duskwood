@@ -1,28 +1,22 @@
 {
   "name": "duskwood-theme",
-  "displayName": "Duskwood",
-  "version": "1.0.1",
   "description": "A duskwoody theme for Visual Studio Code.",
+  "version": "1.0.1",
   "author": "Gabriel Toll Stålbom <gabtost@gmail.com>",
-  "publisher": "gabbes",
-  "license": "MIT",
-  "keywords": [
-    "Theme",
-    "Dark theme"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gabbes/duskwood.git"
+  "__metadata": {
+    "id": "a6893f93-4ab4-4d6a-b6dd-979ad54f11ac",
+    "publisherDisplayName": "gabbes",
+    "publisherId": "add19218-d873-4891-949f-160e7640b8c1"
   },
   "bugs": "https://github.com/gabbes/duskwood/issues",
-  "galleryBanner": {
-    "color": "#181821",
-    "theme": "dark"
-  },
-  "icon": "icon.png",
   "categories": [
     "Themes"
   ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "contributes": {
     "themes": [
       {
@@ -33,29 +27,34 @@
       }
     ]
   },
-  "engines": {
-    "vscode": "^1.41.1"
-  },
-  "scripts": {
-    "build": "node scripts/build.js",
-    "watch": "node scripts/watch.js",
-    "commit": "git-cz",
-    "prepublish": "rimraf ./theme && node index"
-  },
   "devDependencies": {
     "cz-conventional-changelog": "3.0.2",
     "js-yaml": "^3.13.1",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0"
   },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
+  "displayName": "Duskwood",
+  "engines": {
+    "vscode": "^1.41.1"
   },
-  "__metadata": {
-    "id": "a6893f93-4ab4-4d6a-b6dd-979ad54f11ac",
-    "publisherDisplayName": "gabbes",
-    "publisherId": "add19218-d873-4891-949f-160e7640b8c1"
+  "galleryBanner": {
+    "color": "#181821",
+    "theme": "dark"
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "Dark theme",
+    "Theme"
+  ],
+  "license": "MIT",
+  "publisher": "gabbes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabbes/duskwood.git"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "commit": "git-cz",
+    "watch": "node scripts/watch.js"
   }
 }
