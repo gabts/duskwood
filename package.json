@@ -55,6 +55,7 @@
   "scripts": {
     "build": "node scripts/build.js",
     "commit": "git-cz",
+    "vscode:prepublish": "rimraf ./theme && node scripts/build",
     "watch": "node scripts/watch.js"
   }
 }
