@@ -18,9 +18,13 @@ function watch(e, filename) {
   const theme = parseYaml();
 
   const settings = {
-    'workbench.colorTheme': 'Duskwood',
     'workbench.colorCustomizations': theme.colors
   };
+
+  // Ensure .vscode directory exists
+  if (!fs.existsSync('./.vscode')) {
+    fs.mkdirSync('./.vscode');
+  }
 
   // Write theme Json distribution file.
   fs.writeFileSync(

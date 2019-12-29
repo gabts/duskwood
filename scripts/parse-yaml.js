@@ -32,11 +32,6 @@ function parseYaml() {
     return acc;
   }, {});
 
-  // Ensure theme directory exists
-  if (!fs.existsSync('./theme')) {
-    fs.mkdirSync('./theme');
-  }
-
   // Construct final theme object.
   return {
     name: 'Duskwood',
