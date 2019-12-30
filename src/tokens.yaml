@@ -9,7 +9,7 @@
 
 - scope: comment
   settings:
-    foreground: '#ff00ff'
+    foreground: *FOREGROUND_DARK
 
 - scope:
   - entity.name.function
@@ -39,7 +39,7 @@
   - constant.character
   - string.regexp
   settings:
-    foreground: *MAGENTA
+    foreground: *RED
 
 - scope:
   - string
@@ -58,4 +58,9 @@
   - punctuation.separator.dictionary.key-value
   - variable.language.this
   settings:
-    foreground: *RED
+    foreground: *MAGENTA
+
+- scope:
+  - keyword.operator.new.tsx
+  settings:
+    fontStyle: "italic"

@@ -7,18 +7,18 @@ contrastBorder: null
 # Base colors
 # https://code.visualstudio.com/api/references/theme-color#base-colors
 
-focusBorder: null
-foreground: null
+focusBorder: *FOREGROUND_EXTRA_DARK
+foreground: *FOREGROUND_DARK
 widget.shadow: null
 selection.background: null
 descriptionForeground: null
 errorForeground: null
-icon.foreground: null
+icon.foreground: *FOREGROUND_MEDIUM
 
 # Window border
 # https://code.visualstudio.com/api/references/theme-color#window-border
 
-window.activeBorder: null
+window.activeBorder: *MENU_BACKGROUND_DARK
 window.inactiveBorder: null
 
 # Text colors
@@ -35,8 +35,8 @@ textSeparator.foreground: null
 # Button control
 # https://code.visualstudio.com/api/references/theme-color#button-control
 
-button.background: null
-button.foreground: null
+button.background: *FOREGROUND_EXTRA_DARK
+button.foreground: *FOREGROUND_LIGHT
 button.hoverBackground: null
 checkbox.background: null
 checkbox.foreground: null
@@ -45,17 +45,17 @@ checkbox.border: null
 # Dropdown control
 # https://code.visualstudio.com/api/references/theme-color#dropdown-control
 
-dropdown.background: null
-dropdown.listBackground: null
+dropdown.background: *EDITOR_BACKGROUND
+dropdown.listBackground: *EDITOR_BACKGROUND
 dropdown.border: null
-dropdown.foreground: null
+dropdown.foreground: *FOREGROUND_MEDIUM
 
 # Input control
 # https://code.visualstudio.com/api/references/theme-color#input-control
 
-input.background: null
+input.background: *EDITOR_BACKGROUND
 input.border: null
-input.foreground: null
+input.foreground: *FOREGROUND_MEDIUM
 input.placeholderForeground: null
 inputOption.activeBorder: null
 inputValidation.errorBackground: null
@@ -90,16 +90,16 @@ progressBar.background: null
 # Lists and trees
 # https://code.visualstudio.com/api/references/theme-color#lists-and-trees
 
-list.activeSelectionBackground: null
-list.activeSelectionForeground: null
-list.dropBackground: null
+list.activeSelectionBackground: *MENU_BACKGROUND_MEDIUM
+list.activeSelectionForeground: *FOREGROUND_LIGHT
+list.dropBackground: *MENU_BACKGROUND_LIGHT
 list.focusBackground: null
 list.focusForeground: null
 list.highlightForeground: null
-list.hoverBackground: null
-list.hoverForeground: null
-list.inactiveSelectionBackground: null
-list.inactiveSelectionForeground: null
+list.hoverBackground: *MENU_BACKGROUND_LIGHT
+list.hoverForeground: *FOREGROUND_MEDIUM
+list.inactiveSelectionBackground: *MENU_BACKGROUND_MEDIUM
+list.inactiveSelectionForeground: *FOREGROUND_LIGHT
 list.inactiveFocusBackground: null
 list.invalidItemForeground: null
 list.errorForeground: null
@@ -109,32 +109,32 @@ listFilterWidget.outline: null
 listFilterWidget.noMatchesOutline: null
 list.filterMatchBackground: null
 list.filterMatchBorder: null
-tree.indentGuidesStroke: null
+tree.indentGuidesStroke: *FOREGROUND_EXTRA_DARK
 
 # Activity Bar
 # https://code.visualstudio.com/api/references/theme-color#activity-bar
 
-activityBar.background: null
-activityBar.dropBackground: null
-activityBar.foreground: null
-activityBar.inactiveForeground: null
+activityBar.background: *MENU_BACKGROUND_DARK
+activityBar.dropBackground: *MENU_BACKGROUND_LIGHT
+activityBar.foreground: *MENU_FOREGROUND_ICON_LIGHT
+activityBar.inactiveForeground: *MENU_FOREGROUND_ICON_DARK
 activityBar.border: null
-activityBarBadge.background: null
-activityBarBadge.foreground: null
-activityBar.activeBorder: null
+activityBarBadge.background: *FOREGROUND_EXTRA_DARK
+activityBarBadge.foreground: *FOREGROUND_LIGHT
+activityBar.activeBorder: *MENU_FOREGROUND_ICON_DARK
 activityBar.activeBackground: null
 activityBar.activeFocusBorder: null
 
 # Side Bar
 # https://code.visualstudio.com/api/references/theme-color#side-bar
 
-sideBar.background: null
-sideBar.foreground: null
+sideBar.background: *MENU_BACKGROUND_DARK
+sideBar.foreground: *FOREGROUND_MEDIUM
 sideBar.border: null
-sideBar.dropBackground: null
+sideBar.dropBackground: *MENU_BACKGROUND_LIGHT
 sideBarTitle.foreground: null
-sideBarSectionHeader.background: null
-sideBarSectionHeader.foreground: null
+sideBarSectionHeader.background: *MENU_BACKGROUND_DARK
+sideBarSectionHeader.foreground: *FOREGROUND_MEDIUM
 sideBarSectionHeader.border: null
 
 # Minimap
@@ -154,19 +154,19 @@ minimapGutter.deletedBackground: null
 editorGroup.border: null
 editorGroup.dropBackground: null
 editorGroupHeader.noTabsBackground: null
-editorGroupHeader.tabsBackground: null
+editorGroupHeader.tabsBackground: *MENU_BACKGROUND_DARK
 editorGroupHeader.tabsBorder: null
 editorGroup.emptyBackground: null
 editorGroup.focusedEmptyBorder: null
 tab.activeBackground: null
-tab.activeForeground: null
-tab.border: null
+tab.activeForeground: *FOREGROUND_LIGHT
+tab.border: *MENU_BACKGROUND_DARK
 tab.activeBorder: null
 tab.unfocusedActiveBorder: null
 tab.activeBorderTop: null
 tab.unfocusedActiveBorderTop: null
-tab.inactiveBackground: null
-tab.inactiveForeground: null
+tab.inactiveBackground: *MENU_BACKGROUND_DARK
+tab.inactiveForeground: *FOREGROUND_MEDIUM
 tab.unfocusedActiveForeground: null
 tab.unfocusedInactiveForeground: null
 tab.hoverBackground: null
@@ -182,12 +182,12 @@ editorPane.background: null
 # Editor colors
 # https://code.visualstudio.com/api/references/theme-color#editor-colors
 
-editor.background: null
+editor.background: *EDITOR_BACKGROUND
 editor.foreground: null
-editorLineNumber.foreground: null
+editorLineNumber.foreground: *FOREGROUND_DARK
 editorLineNumber.activeForeground: null
 editorCursor.background: null
-editorCursor.foreground: null
+editorCursor.foreground: *FOREGROUND_LIGHT
 editor.selectionBackground: null
 editor.selectionForeground: null
 editor.inactiveSelectionBackground: null
@@ -207,16 +207,16 @@ searchEditor.findMatchBackground: null
 searchEditor.findMatchBorder: null
 editor.hoverHighlightBackground: null
 editor.lineHighlightBackground: null
-editor.lineHighlightBorder: null
+editor.lineHighlightBorder: *MENU_BACKGROUND_LIGHT
 editorLink.activeForeground: null
 editor.rangeHighlightBackground: null
 editor.rangeHighlightBorder: null
 editor.symbolHighlightBackground: null
 editor.symbolHighlightBorder: null
 editorWhitespace.foreground: null
-editorIndentGuide.background: null
-editorIndentGuide.activeBackground: null
-editorRuler.foreground: null
+editorIndentGuide.background: *FOREGROUND_EXTRA_DARK
+editorIndentGuide.activeBackground: *FOREGROUND_EXTRA_DARK
+editorRuler.foreground: *FOREGROUND_EXTRA_DARK
 editorCodeLens.foreground: null
 editorLightBulb.foreground: null
 editorLightBulbAutoFix.foreground: null
@@ -267,8 +267,8 @@ diffEditor.border: null
 # https://code.visualstudio.com/api/references/theme-color#editor-widget-colors
 
 editorWidget.foreground: null
-editorWidget.background: null
-editorWidget.border: null
+editorWidget.background: *MENU_BACKGROUND_DARK
+editorWidget.border: *FOREGROUND_EXTRA_DARK
 editorWidget.resizeBorder: null
 editorSuggestWidget.background: null
 editorSuggestWidget.border: null
@@ -321,19 +321,19 @@ editorOverviewRuler.commonContentForeground: null
 # Panel colors
 # https://code.visualstudio.com/api/references/theme-color#panel-colors
 
-panel.background: null
-panel.border: null
+panel.background: *MENU_BACKGROUND_DARK
+panel.border: *MENU_BACKGROUND_DARK
 panel.dropBackground: null
 panelTitle.activeBorder: null
-panelTitle.activeForeground: null
+panelTitle.activeForeground: *FOREGROUND_MEDIUM
 panelTitle.inactiveForeground: null
 panelInput.border: null
 
 # Status Bar colors
 # https://code.visualstudio.com/api/references/theme-color#status-bar-colors
 
-statusBar.background: null
-statusBar.foreground: null
+statusBar.background: *MENU_BACKGROUND_DARK
+statusBar.foreground: *FOREGROUND_DARK
 statusBar.border: null
 statusBar.debuggingBackground: null
 statusBar.debuggingForeground: null
@@ -393,8 +393,8 @@ quickInput.foreground: null
 # https://code.visualstudio.com/api/references/theme-color#integrated-terminal-colors
 
 terminal.background: null
-terminal.border: null
-terminal.foreground: null
+terminal.border: *FOREGROUND_EXTRA_DARK
+terminal.foreground: *FOREGROUND_MEDIUM
 terminal.ansiBlack: null
 terminal.ansiBlue: null
 terminal.ansiBrightBlack: null
@@ -435,10 +435,10 @@ walkThrough.embeddedEditorBackground: null
 # https://code.visualstudio.com/api/references/theme-color#git-colors
 
 gitDecoration.addedResourceForeground: null
-gitDecoration.modifiedResourceForeground: null
+gitDecoration.modifiedResourceForeground: '#4fa2d5'
 gitDecoration.deletedResourceForeground: null
 gitDecoration.untrackedResourceForeground: null
-gitDecoration.ignoredResourceForeground: null
+gitDecoration.ignoredResourceForeground: *FOREGROUND_DARK
 gitDecoration.conflictingResourceForeground: null
 gitDecoration.submoduleResourceForeground: null
 

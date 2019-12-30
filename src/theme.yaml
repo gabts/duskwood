@@ -1,27 +1,32 @@
 theme:
-  - &PRIMARY_1 '#1E1E1E'
-  - &PRIMARY_2 '#3A3C3E'
-  - &PRIMARY_3 '#565B5E'
-  - &PRIMARY_4 '#72797E'
-  - &PRIMARY_5 '#8F979D'
-  - &PRIMARY_6 '#ABB5BD'
-  - &PRIMARY_7 '#C7D4DD'
-  - &PRIMARY_8 '#E3F2FD'
+  - &EDITOR_BACKGROUND '#1f1e29'
+
+  - &MENU_BACKGROUND_DARK '#14131a'
+  - &MENU_BACKGROUND_MEDIUM '#232326'
+  - &MENU_BACKGROUND_LIGHT '#2d2d30'
+
+  - &MENU_FOREGROUND_ICON_LIGHT '#7d7d7d'
+  - &MENU_FOREGROUND_ICON_DARK '#484848'
+
+  - &FOREGROUND_EXTRA_DARK '#373a49'
+  - &FOREGROUND_DARK '#efe8fc33'
+  - &FOREGROUND_MEDIUM '#efe8fc95'
+  - &FOREGROUND_LIGHT '#efe8fc'
 
 ansi:
   # - &BLACK '#'
   # - &BRIGHT_BLACK '#'
-  - &BLUE '#0682e6'
+  - &BLUE '#92cff0'
   # - &BRIGHT_BLUE '#'
   # - &CYAN '#'
   # - &BRIGHT_CYAN '#'
-  - &GREEN '#06e6da'
+  - &GREEN '#d9f3a8'
   # - &BRIGHT_GREEN '#'
-  - &MAGENTA '#0612e6'
+  - &MAGENTA '#e292f0' #
   # - &BRIGHT_MAGENTA '#'
-  - &RED '#e60682'
+  - &RED '#b392f0' # Really purple tho
   # - &BRIGHT_RED '#'
-  - &WHITE '#ecf6ff'
+  - &WHITE '#e9e0fb'
   # - &BRIGHT_WHITE '#'
-  - &YELLOW '#e6da06'
+  - &YELLOW '#f0b392' # Orange do
   # - &BRIGHT_YELLOW '#'
