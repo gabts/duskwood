@@ -1,5 +1,11 @@
 const fs = require('fs');
+const build = require('./build');
 const parseYaml = require('./parse-yaml');
+
+// Ensure theme exists
+if (!fs.existsSync('./theme')) {
+  build();
+}
 
 let lastTimeMs;
 
@@ -13,13 +19,12 @@ function watch(e, filename) {
 
   lastTimeMs = mtimeMs;
 
-  console.log(
-    `📝  writing >> .vscode/settings.json @ ${mtime.toLocaleString()}`
-  );
+  console.log(`📝  >> .vscode/settings.json @ ${mtime.toLocaleString()}`);
 
   const theme = parseYaml();
 
   const settings = {
+    'workbench.colorTheme': 'Duskwood',
     'workbench.colorCustomizations': theme.colors
   };
 
