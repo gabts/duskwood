@@ -1,6 +1,8 @@
-# 🌒 Duskwood
+# Duskwood
 
-A spooky dark theme for coding from dusk till dawn. 🎃🌲🐺
+🌒 A spooky dark theme for coding from dusk till dawn. 🎃🌲🐺
+
+![Screenshot](screenshot.png)
 
 ## 🌲 Development
 
