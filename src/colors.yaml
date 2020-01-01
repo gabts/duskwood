@@ -118,10 +118,10 @@ activityBar.background: *MENU_BACKGROUND_DARK
 activityBar.dropBackground: *MENU_BACKGROUND_LIGHT
 activityBar.foreground: *MENU_FOREGROUND_ICON_LIGHT
 activityBar.inactiveForeground: *MENU_FOREGROUND_ICON_DARK
-activityBar.border: null
+activityBar.border: *MENU_BORDER_DARK
 activityBarBadge.background: *FOREGROUND_EXTRA_DARK
 activityBarBadge.foreground: *FOREGROUND_LIGHT
-activityBar.activeBorder: *MENU_FOREGROUND_ICON_DARK
+activityBar.activeBorder: *MENU_BACKGROUND_LIGHT
 activityBar.activeBackground: null
 activityBar.activeFocusBorder: null
 
@@ -130,12 +130,12 @@ activityBar.activeFocusBorder: null
 
 sideBar.background: *MENU_BACKGROUND_DARK
 sideBar.foreground: *FOREGROUND_MEDIUM
-sideBar.border: null
+sideBar.border: *MENU_BORDER_DARK
 sideBar.dropBackground: *MENU_BACKGROUND_LIGHT
 sideBarTitle.foreground: null
-sideBarSectionHeader.background: *MENU_BACKGROUND_DARK
+sideBarSectionHeader.background: *MENU_BACKGROUND_EXTRA_DARK
 sideBarSectionHeader.foreground: *FOREGROUND_MEDIUM
-sideBarSectionHeader.border: null
+sideBarSectionHeader.border: *MENU_BORDER_DARK
 
 # Minimap
 # https://code.visualstudio.com/api/references/theme-color#minimap
@@ -154,18 +154,18 @@ minimapGutter.deletedBackground: null
 editorGroup.border: null
 editorGroup.dropBackground: null
 editorGroupHeader.noTabsBackground: null
-editorGroupHeader.tabsBackground: *MENU_BACKGROUND_DARK
-editorGroupHeader.tabsBorder: null
+editorGroupHeader.tabsBackground: *MENU_BACKGROUND_EXTRA_DARK
+editorGroupHeader.tabsBorder: *MENU_BORDER_DARK
 editorGroup.emptyBackground: null
 editorGroup.focusedEmptyBorder: null
-tab.activeBackground: null
+tab.activeBackground: *MENU_BACKGROUND_DARK
 tab.activeForeground: *FOREGROUND_LIGHT
-tab.border: *MENU_BACKGROUND_DARK
+tab.border: null
 tab.activeBorder: null
 tab.unfocusedActiveBorder: null
-tab.activeBorderTop: null
+tab.activeBorderTop: *MENU_BORDER_LIGHT
 tab.unfocusedActiveBorderTop: null
-tab.inactiveBackground: *MENU_BACKGROUND_DARK
+tab.inactiveBackground: *MENU_BACKGROUND_EXTRA_DARK
 tab.inactiveForeground: *FOREGROUND_MEDIUM
 tab.unfocusedActiveForeground: null
 tab.unfocusedInactiveForeground: null
@@ -268,7 +268,7 @@ diffEditor.border: null
 
 editorWidget.foreground: null
 editorWidget.background: *MENU_BACKGROUND_DARK
-editorWidget.border: *FOREGROUND_EXTRA_DARK
+editorWidget.border: *MENU_BORDER_LIGHT
 editorWidget.resizeBorder: null
 editorSuggestWidget.background: null
 editorSuggestWidget.border: null
@@ -321,8 +321,8 @@ editorOverviewRuler.commonContentForeground: null
 # Panel colors
 # https://code.visualstudio.com/api/references/theme-color#panel-colors
 
-panel.background: *MENU_BACKGROUND_DARK
-panel.border: *MENU_BACKGROUND_DARK
+panel.background: *MENU_BACKGROUND_EXTRA_DARK
+panel.border: *MENU_BORDER_DARK
 panel.dropBackground: null
 panelTitle.activeBorder: null
 panelTitle.activeForeground: *FOREGROUND_MEDIUM
@@ -332,7 +332,7 @@ panelInput.border: null
 # Status Bar colors
 # https://code.visualstudio.com/api/references/theme-color#status-bar-colors
 
-statusBar.background: *MENU_BACKGROUND_DARK
+statusBar.background: *MENU_BACKGROUND_EXTRA_DARK
 statusBar.foreground: *FOREGROUND_DARK
 statusBar.border: null
 statusBar.debuggingBackground: null
@@ -392,7 +392,7 @@ quickInput.foreground: null
 # Integrated Terminal colors
 # https://code.visualstudio.com/api/references/theme-color#integrated-terminal-colors
 
-terminal.background: null
+terminal.background: *MENU_BACKGROUND_DARK
 terminal.border: *FOREGROUND_EXTRA_DARK
 terminal.foreground: *FOREGROUND_MEDIUM
 terminal.ansiBlack: null
@@ -465,7 +465,7 @@ settings.numberInputBorder: null
 # https://code.visualstudio.com/api/references/theme-color#breadcrumbs
 
 breadcrumb.foreground: null
-breadcrumb.background: null
+breadcrumb.background: *MENU_BACKGROUND_DARK
 breadcrumb.focusForeground: null
 breadcrumb.activeSelectionForeground: null
 breadcrumbPicker.background: null
