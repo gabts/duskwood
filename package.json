@@ -57,5 +57,10 @@
     "commit": "git-cz",
     "vscode:prepublish": "rimraf ./theme && node scripts/build",
     "watch": "node scripts/watch.js"
+  },
+  "__metadata": {
+    "id": "dfe1ef26-793b-4867-8f1c-9b928dbba8e9",
+    "publisherDisplayName": "Gabriel Toll Stålbom",
+    "publisherId": "b7c114c8-01c1-4a43-bd7d-983281a49559"
   }
 }
