@@ -1,9 +1,5 @@
 # Changelog
 
-## 1.0.1 - 2019-10-17
+## 1.0.0 - 2020-01-01
 
-- Fixes `process`, `this`, and function entity colors.
-
-## 1.0.0 - 2019-10-13
-
-- Initial release.
+- Initial release! 👻
