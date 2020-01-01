@@ -39,6 +39,7 @@
   - constant.character
   - string.regexp
   - entity.name.tag.js
+  - entity.name.tag.tsx
   settings:
     foreground: *RED
 
