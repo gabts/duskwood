@@ -1,6 +1,6 @@
-# 🌑 Duskwood 🌑
+# 🌒 Duskwood
 
-A dark theme for [Visual Studio Code](http://code.visualstudio.com).
+A spooky dark theme for coding from dusk till dawn. 🎃🌲🐺
 
 ## 🌲 Development
 
@@ -23,6 +23,6 @@ This does not work for token colors. When editing tokens you have to run `yarn b
 
 Changes are tracked [here](./CHANGELOG).
 
-## ⛰️ License
+## 🐺 License
 
 [MIT](./LICENSE)
