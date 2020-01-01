@@ -1,14 +1,9 @@
 {
   "name": "duskwood-theme",
-  "description": "A duskwoody theme for Visual Studio Code.",
-  "version": "1.0.1",
+  "description": "🌒 A spooky dark theme for coding from dusk till dawn. 🎃🌲🐺",
+  "version": "1.0.0",
   "author": "Gabriel Toll Stålbom <gabtost@gmail.com>",
-  "__metadata": {
-    "id": "a6893f93-4ab4-4d6a-b6dd-979ad54f11ac",
-    "publisherDisplayName": "gabbes",
-    "publisherId": "add19218-d873-4891-949f-160e7640b8c1"
-  },
-  "bugs": "https://github.com/gabbes/duskwood/issues",
+  "bugs": "https://github.com/gabts/duskwood/issues",
   "categories": [
     "Themes"
   ],
@@ -38,19 +33,24 @@
     "vscode": "^1.41.1"
   },
   "galleryBanner": {
-    "color": "#181821",
+    "color": "#191a21",
     "theme": "dark"
   },
   "icon": "icon.png",
   "keywords": [
-    "Dark theme",
-    "Theme"
+    "color theme",
+    "dark",
+    "dark theme",
+    "duskwood",
+    "night",
+    "spooky",
+    "theme"
   ],
   "license": "MIT",
-  "publisher": "gabbes",
+  "publisher": "gabrieltollstalbom",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gabbes/duskwood.git"
+    "url": "https://github.com/gabts/duskwood.git"
   },
   "scripts": {
     "build": "node scripts/build.js",
