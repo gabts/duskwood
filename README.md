@@ -1,6 +1,8 @@
-# Duskwood
+<h1 align="center">Duskwood</h1>
 
-🌒 A spooky dark theme for coding from dusk till dawn. 🎃🌲🐺
+<br />
+<p align="center">🌒 A spooky dark theme for coding from dusk till dawn. 🎃🌲🐺</p>
+<br />
 
 ![Screenshot](screenshot.png)
 
