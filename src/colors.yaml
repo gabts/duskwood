@@ -18,7 +18,7 @@ icon.foreground: *FOREGROUND_MEDIUM
 # Window border
 # https://code.visualstudio.com/api/references/theme-color#window-border
 
-window.activeBorder: *MENU_BACKGROUND_DARK
+window.activeBorder: null
 window.inactiveBorder: null
 
 # Text colors
@@ -352,11 +352,11 @@ statusBarItem.remoteForeground: null
 # Title Bar colors
 # https://code.visualstudio.com/api/references/theme-color#title-bar-colors
 
-titleBar.activeBackground: null
-titleBar.activeForeground: null
-titleBar.inactiveBackground: null
-titleBar.inactiveForeground: null
-titleBar.border: null
+titleBar.activeBackground: *MENU_BACKGROUND_DARK
+titleBar.activeForeground: *FOREGROUND_DARK
+titleBar.inactiveBackground: *MENU_BACKGROUND_MEDIUM
+titleBar.inactiveForeground: *FOREGROUND_DARK
+titleBar.border: *MENU_BORDER_DARK
 
 # Menu Bar colors
 # https://code.visualstudio.com/api/references/theme-color#menu-bar-colors
