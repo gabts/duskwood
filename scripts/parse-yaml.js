@@ -12,27 +12,24 @@ function parseYaml() {
 
   // Combine source contents into a single Yaml string. Because values
   // are wrapped by an object key all new lines are indented two spaces.
-  const str = src.reduce((acc, { key, path }) => {
+  let str = '';
+
+  for (const { key, path } of src) {
     const values = fs.readFileSync(path, 'utf8');
+    str += `${key}:\n  ${values.replace(/\n/g, '\n  ')}\n`;
+  }
 
-    acc += `${key}:\n  ${values.replace(/\n/g, '\n  ')}\n`;
-
-    return acc;
-  }, '');
-
-  // Parse Yaml string into a JavaScript object.
   const obj = yaml.safeLoad(str);
 
-  // Filter null key values from colors object.
-  const colors = Object.keys(obj.colors).reduce((acc, key) => {
+  // Object with theme colors from non-null key values.
+  const colors = {};
+
+  for (const key of Object.keys(obj.colors)) {
     if (obj.colors[key] !== null) {
-      acc[key] = obj.colors[key];
+      colors[key] = obj.colors[key];
     }
+  }
 
-    return acc;
-  }, {});
-
-  // Construct final theme object.
   return {
     name: 'Duskwood',
     author: 'Gabriel Toll Stålbom',
