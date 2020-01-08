@@ -25,7 +25,7 @@ This does not work for token colors. When editing tokens you have to run `yarn b
 
 ## 🪓 Changelog
 
-Changes are tracked [here](./CHANGELOG).
+Changes are tracked [here](./CHANGELOG.md).
 
 ## 🐺 License
 
