@@ -23,6 +23,10 @@ If editing [theme colors](https://code.visualstudio.com/api/references/theme-col
 
 This does not work for token colors. When editing tokens you have to run `yarn build` to generate the complete updated theme and then reload the window.
 
+## 🦇 Credits
+
+Thanks to the excellent [Dracula theme](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) for inspiration!
+
 ## 🪓 Changelog
 
 Changes are tracked [here](./CHANGELOG.md).
