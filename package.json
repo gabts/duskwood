@@ -1,6 +1,6 @@
 {
   "name": "duskwood-theme",
-  "description": "🌒 A spooky dark theme for coding from dusk till dawn. 🎃🌲🐺",
+  "description": "A spooky dark theme for coding from dusk till dawn",
   "version": "1.0.1",
   "author": "Gabriel Toll Stålbom <gabtost@gmail.com>",
   "bugs": "https://github.com/gabts/duskwood/issues",
@@ -17,20 +17,17 @@
       {
         "id": "Duskwood",
         "label": "Duskwood",
-        "path": "./theme/duskwood.json",
+        "path": "./theme.json",
         "uiTheme": "vs-dark"
       }
     ]
   },
   "devDependencies": {
-    "cz-conventional-changelog": "3.0.2",
-    "js-yaml": "^3.13.1",
-    "prettier": "^1.19.1",
-    "rimraf": "^3.0.0"
+    "prettier": "^2.2.1"
   },
   "displayName": "Duskwood",
   "engines": {
-    "vscode": "^1.41.1"
+    "vscode": "^1.52.1"
   },
   "galleryBanner": {
     "color": "#191a21",
@@ -50,12 +47,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gabts/duskwood.git"
-  },
-  "scripts": {
-    "build": "node scripts/build.js",
-    "commit": "git-cz",
-    "vscode:prepublish": "rimraf ./theme && node scripts/build",
-    "watch": "node scripts/watch.js"
   },
   "__metadata": {
     "id": "dfe1ef26-793b-4867-8f1c-9b928dbba8e9",
