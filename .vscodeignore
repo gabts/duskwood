@@ -1,3 +1,4 @@
+*.vsix
 .gitignore
 .prettierrc
 .vscode
