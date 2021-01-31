@@ -1,17 +1,12 @@
 {
   "name": "duskwood-theme",
   "description": "A spooky dark theme for coding from dusk till dawn",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "Gabriel Toll Stålbom <gabtost@gmail.com>",
   "bugs": "https://github.com/gabts/duskwood/issues",
   "categories": [
     "Themes"
   ],
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
   "contributes": {
     "themes": [
       {
@@ -30,7 +25,7 @@
     "vscode": "^1.52.1"
   },
   "galleryBanner": {
-    "color": "#191a21",
+    "color": "#141c2b",
     "theme": "dark"
   },
   "icon": "icon.png",
