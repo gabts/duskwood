@@ -1,6 +1,10 @@
 # Changelog
 
-## 1.1.0 - 2020-01-31
+## 1.2.0 - 2021-02-02
+
+- Another complete overhaul. Less blue, same spirit.
+
+## 1.1.0 - 2021-01-31
 
 - Complete overhaul. New colors, same spirit.
 
