@@ -38,8 +38,6 @@
 
     "breadcrumb.background": "#1c1c1e",
     "editor.background": "#1c1c1e",
-    "list.activeSelectionBackground": "#1c1c1e",
-    "list.hoverBackground": "#1c1c1e",
     "list.inactiveSelectionBackground": "#1c1c1e",
     "statusBarItem.hoverBackground": "#1c1c1e",
     "tab.activeBackground": "#1c1c1e",
@@ -48,7 +46,10 @@
     "dropdown.background": "#202021",
     "list.focusBackground": "#202021",
 
-    "editor.lineHighlightBackground": "#222224",
+    "editor.lineHighlightBackground": "#242426",
+    "list.hoverBackground": "#242426",
+
+    "list.activeSelectionBackground": "#28282a",
 
     "editorIndentGuide.background": "#333335",
     "editorRuler.foreground": "#333335",
