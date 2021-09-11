@@ -1,6 +1,10 @@
 # Changelog
 
-## 1.2.0 - 2021-02-18
+## 1.2.2 - 2021-09-11
+
+- Fix brighter line highlight colors.
+
+## 1.2.1 - 2021-02-18
 
 - Add attribute name color.
 - Add line hightlight background instead of border.
